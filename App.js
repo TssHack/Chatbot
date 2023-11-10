@@ -72,7 +72,7 @@ export default function App() {
     setMessages(previousMessages => GiftedChat.append(previousMessages, newMessages));
 
     try {
-      const response = await fetch('https://chatgpt-api3.onrender.com/', {
+      const response = await fetch('https://dehgan.ehsanfazli.repl.co/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json; charset=UTF-8',
